@@ -5,12 +5,15 @@ import org.jspecify.annotations.Nullable;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.tags.EntityTypeTags;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.animal.Animal;
 
+import com.valheimarsenal.ValheimArsenal;
 import com.valheimarsenal.item.ValheimItem;
 import com.valheimarsenal.weapon.Family;
 import com.valheimarsenal.weapon.WeaponSpec;
@@ -21,6 +24,11 @@ import com.valheimarsenal.weapon.WeaponSpec;
  * Called from {@code LivingEntityDamageMixin} at the start of LivingEntity#hurtServer.
  */
 public final class DamageRules {
+	/** Skeletons: weak to blunt, resistant to pierce. data/valheim_arsenal/tags/entity_type/blunt_weak.json */
+	public static final TagKey<EntityType<?>> BLUNT_WEAK = TagKey.create(Registries.ENTITY_TYPE, ValheimArsenal.id("blunt_weak"));
+	/** The undead: hurt by spirit damage. data/valheim_arsenal/tags/entity_type/spirit_weak.json */
+	public static final TagKey<EntityType<?>> SPIRIT_WEAK = TagKey.create(Registries.ENTITY_TYPE, ValheimArsenal.id("spirit_weak"));
+
 	private DamageRules() {
 	}
 
@@ -47,12 +55,12 @@ public final class DamageRules {
 		float result = amount;
 
 		// Skeletons crumble under blunt weapons and shrug off piercing ones.
-		if (target.getType().is(EntityTypeTags.SKELETONS)) {
+		if (target.getType().is(BLUNT_WEAK)) {
 			result *= spec.physical().skeletonMultiplier();
 		}
 
 		// Spirit damage only hurts the undead, but hurts them a lot.
-		if (spec.spiritBonus() > 0.0F && target.getType().is(EntityTypeTags.UNDEAD)) {
+		if (spec.spiritBonus() > 0.0F && target.getType().is(SPIRIT_WEAK)) {
 			result += spec.spiritBonus();
 			Fx.burstAt(level, ParticleTypes.SOUL, target, 4, 0.02);
 		}

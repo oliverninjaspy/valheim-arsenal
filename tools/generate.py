@@ -438,9 +438,13 @@ def write_tags(weapons, shields):
     shield_ids = [NS + d["id"] for d in shields]
     everything = [NS + d["id"] for d in weapons + shields]
 
+    # Valheim damage-type weaknesses (optional references so a renamed vanilla tag can't break loading)
+    tag("entity_type", MOD_ID, "blunt_weak", [{"id": "#minecraft:skeletons", "required": False}])
+    tag("entity_type", MOD_ID, "spirit_weak", [{"id": "#minecraft:undead", "required": False}])
+
     tag("item", "minecraft", "swords", swords)
     tag("item", "minecraft", "axes", axes)
-    for t in ("enchantable/sharp_weapon", "enchantable/weapon", "enchantable/fire_aspect"):
+    for t in ("enchantable/sharp_weapon", "enchantable/weapon", "enchantable/melee_weapon", "enchantable/fire_aspect"):
         tag("item", "minecraft", t, other_melee)
     tag("item", "minecraft", "enchantable/durability", everything)
     tag("item", "minecraft", "enchantable/vanishing", everything)
