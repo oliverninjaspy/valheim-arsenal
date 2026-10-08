@@ -12,6 +12,11 @@ base {
 
 repositories {
 	// Loom adds the Minecraft and Fabric repositories automatically.
+	// TerraBlender (used to add the Mistlands to the overworld) is published here.
+	maven {
+		name = 'Glitchfiend'
+		url = 'https://maven.minecraftforge.net/'
+	}
 }
 
 loom {
@@ -29,6 +34,10 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	// TerraBlender, bundled inside our jar ("include") so players only need Valheim Arsenal + Fabric API.
+	implementation "com.github.glitchfiend:TerraBlender-fabric:${project.terrablender_version}"
+	include "com.github.glitchfiend:TerraBlender-fabric:${project.terrablender_version}"
 }
 
 processResources {

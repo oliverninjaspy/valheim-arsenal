@@ -1,6 +1,6 @@
 # Valheim Arsenal
 
-A Fabric mod that brings Valheim's weapons to **Minecraft Java Edition 26.3** — 59 weapons, 15 shields and 5 crafting materials, each with its own 16×16 sprite drawn in the vanilla style, and Valheim's combat mechanics: secondary attacks, backstabs, 3-hit combos, parries, staggers, damage types and elemental damage.
+A Fabric mod that brings Valheim's weapons to **Minecraft Java Edition 26.3** — 59 weapons, 15 shields and 5 crafting materials, each with its own 16×16 sprite drawn in the vanilla style, and Valheim's combat mechanics: secondary attacks, backstabs, 3-hit combos, parries, staggers, damage types and elemental damage. It also adds the **Mistlands** biome to the overworld.
 
 ![Every item in the mod](docs/preview.png)
 
@@ -23,7 +23,7 @@ The source here has to be built once into a `.jar`.
 ./gradlew build          (Windows: gradlew.bat build)
 ```
 
-The mod is written to `build/libs/valheim-arsenal-1.0.0.jar`.
+The mod is written to `build/libs/valheim-arsenal-1.1.0.jar`.
 
 **Installing.** Put that jar and [Fabric API](https://modrinth.com/mod/fabric-api) for 26.3 into your `.minecraft/mods` folder and launch the Fabric 26.3 profile. Everything is in the **Valheim Arsenal** creative tab, and all recipes appear in the recipe book as soon as you join a world.
 
@@ -64,6 +64,18 @@ The mod is written to `build/libs/valheim-arsenal-1.0.0.jar`.
 - **Staves.** Embers (exploding fireball), Frost (spray of ice shards), Protection (absorption shield for you and nearby allies), Dundr (lightning where you aim), Staff of the Wild (roots that hold enemies), Staff of Fracturing (a line of erupting stone).
 - **Butcher knife.** Kills animals in one blow and does nothing to anything else.
 - Axes and battleaxes chop wood and strip logs. All items take vanilla enchantments for their type, and Ashlands gear doesn't burn in lava.
+
+## The Mistlands
+
+A misty, purple-grey biome that takes the place of some dark forests, old-growth taigas and windswept forests in new chunks.
+
+- Thick mist: you can only see about 48 blocks, and ash-like motes drift through the air.
+- Dark, rocky ground: patches of tuff and moss among dusky grass, with mossy boulders.
+- Dark oaks and giant mushrooms, pale moss, and the deep dark music.
+- Dangerous: many more spiders and cave spiders (Valheim's Seekers and ticks), plus endermen.
+- Woodland mansions, mineshafts, trail ruins, trial chambers and ruined portals still generate there.
+
+Use a **new world** (or explore far away from where you've been) to find it; `/locate biome valheim_arsenal:mistlands` points you to the nearest one. The biome is added with [TerraBlender](https://github.com/Glitchfiend/TerraBlender), which is bundled inside the Valheim Arsenal jar, so there's nothing extra to install. How often it appears is `MISTLANDS_WEIGHT` in `ValheimTerraBlender.java`; its look, spawns and features are in `data/valheim_arsenal/worldgen/biome/mistlands.json`.
 
 ## Crafting
 
@@ -182,4 +194,4 @@ Sprite drawing lives in `tools/sprites.py`; combat code is in `src/main/java/com
 
 ## Credits
 
-A fan project. Valheim and its weapon names belong to Iron Gate AB; Minecraft belongs to Mojang. All textures in this mod are original pixel art. Not affiliated with or endorsed by either studio.
+A fan project. Valheim and its weapon names belong to Iron Gate AB; Minecraft belongs to Mojang. All textures in this mod are original pixel art. Not affiliated with or endorsed by either studio. TerraBlender by Glitchfiend is bundled under the LGPL-3.0.

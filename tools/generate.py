@@ -318,7 +318,8 @@ def write_models(weapons, shields):
 def write_lang(weapons_raw, shields):
     lang = {"itemGroup.valheim_arsenal.arsenal": "Valheim Arsenal",
             "entity.valheim_arsenal.thrown_spear": "Thrown Spear",
-            "entity.valheim_arsenal.magic_bolt": "Magic Bolt"}
+            "entity.valheim_arsenal.magic_bolt": "Magic Bolt",
+            "biome.valheim_arsenal.mistlands": "Mistlands"}
     for mid, name, *_ in MATERIALS:
         lang[f"item.{MOD_ID}.{mid}"] = name if name.endswith("Eitr") else (name + " Ingot" if not name.endswith("Ingot") else name)
     for w in weapons_raw:
@@ -441,6 +442,13 @@ def write_tags(weapons, shields):
     # Valheim damage-type weaknesses (optional references so a renamed vanilla tag can't break loading)
     tag("entity_type", MOD_ID, "blunt_weak", [{"id": "#minecraft:skeletons", "required": False}])
     tag("entity_type", MOD_ID, "spirit_weak", [{"id": "#minecraft:undead", "required": False}])
+
+    # Mistlands biome: keep structures and biome checks that relied on the forests it replaces
+    mist = [NS + "mistlands"]
+    for t in ("is_overworld", "is_forest", "stronghold_biased_to", "has_structure/mineshaft",
+              "has_structure/ruined_portal_standard", "has_structure/trial_chambers",
+              "has_structure/trail_ruins", "has_structure/woodland_mansion"):
+        tag("worldgen/biome", "minecraft", t, mist)
 
     tag("item", "minecraft", "swords", swords)
     tag("item", "minecraft", "axes", axes)
