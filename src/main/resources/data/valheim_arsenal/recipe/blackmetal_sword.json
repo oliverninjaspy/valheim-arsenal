@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:black_metal_ingot",
+    "valheim_arsenal:black_metal_ingot",
+    "minecraft:stick",
+    "minecraft:leather",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "valheim_arsenal:blackmetal_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:flint",
+    "minecraft:flint",
+    "minecraft:stick",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:flint_knife",
+    "count": 1
+  }
+}

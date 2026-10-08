@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:quartz",
+    "minecraft:quartz"
+  ],
+  "result": {
+    "id": "valheim_arsenal:silver_ingot",
+    "count": 1
+  }
+}

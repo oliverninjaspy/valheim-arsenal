@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:cherry_log",
+    "minecraft:cherry_log",
+    "valheim_arsenal:refined_eitr",
+    "valheim_arsenal:refined_eitr",
+    "minecraft:blue_ice",
+    "minecraft:snowball"
+  ],
+  "result": {
+    "id": "valheim_arsenal:staff_of_frost",
+    "count": 1
+  }
+}

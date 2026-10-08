@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:nautilus_shell",
+    "minecraft:prismarine_shard",
+    "minecraft:stick",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:abyssal_razor",
+    "count": 1
+  }
+}

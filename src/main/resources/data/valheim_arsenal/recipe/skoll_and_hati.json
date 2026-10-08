@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:black_metal_ingot",
+    "valheim_arsenal:black_metal_ingot",
+    "valheim_arsenal:black_metal_ingot",
+    "valheim_arsenal:refined_eitr",
+    "minecraft:armadillo_scute",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:skoll_and_hati",
+    "count": 1
+  }
+}

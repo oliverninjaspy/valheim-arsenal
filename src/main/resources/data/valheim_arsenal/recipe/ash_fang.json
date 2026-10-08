@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:flametal_ingot",
+    "minecraft:crimson_stem",
+    "minecraft:crimson_stem",
+    "minecraft:bone",
+    "minecraft:string",
+    "minecraft:string",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:ash_fang",
+    "count": 1
+  }
+}

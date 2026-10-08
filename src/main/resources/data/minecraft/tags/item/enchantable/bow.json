@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "valheim_arsenal:crude_bow",
+    "valheim_arsenal:finewood_bow",
+    "valheim_arsenal:huntsman_bow",
+    "valheim_arsenal:draugr_fang",
+    "valheim_arsenal:spinesnap",
+    "valheim_arsenal:ash_fang"
+  ]
+}

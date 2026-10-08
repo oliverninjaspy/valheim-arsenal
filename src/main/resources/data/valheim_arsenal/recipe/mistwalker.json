@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:silver_ingot",
+    "valheim_arsenal:silver_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:glow_ink_sac",
+    "minecraft:blue_ice",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:mistwalker",
+    "count": 1
+  }
+}

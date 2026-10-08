@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:netherite_scrap",
+    "minecraft:gold_ingot",
+    "minecraft:blaze_powder",
+    "minecraft:magma_cream"
+  ],
+  "result": {
+    "id": "valheim_arsenal:flametal_ingot",
+    "count": 1
+  }
+}

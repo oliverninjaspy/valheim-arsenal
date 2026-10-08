@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "valheim_arsenal:stone_axe",
+    "valheim_arsenal:flint_axe",
+    "valheim_arsenal:bronze_axe",
+    "valheim_arsenal:iron_axe",
+    "valheim_arsenal:blackmetal_axe",
+    "valheim_arsenal:jotun_bane",
+    "valheim_arsenal:berserkir_axes",
+    "valheim_arsenal:battleaxe",
+    "valheim_arsenal:crystal_battleaxe"
+  ]
+}

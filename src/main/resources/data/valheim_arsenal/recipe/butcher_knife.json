@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:birch_planks",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:butcher_knife",
+    "count": 1
+  }
+}

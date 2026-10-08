@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:bone",
+    "minecraft:bone",
+    "minecraft:bone",
+    "valheim_arsenal:silver_ingot",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:fang_spear",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:cobblestone",
+    "minecraft:cobblestone",
+    "minecraft:stick",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:stone_axe",
+    "count": 1
+  }
+}

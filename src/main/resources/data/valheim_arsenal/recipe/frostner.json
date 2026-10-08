@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:silver_ingot",
+    "valheim_arsenal:silver_ingot",
+    "valheim_arsenal:silver_ingot",
+    "minecraft:blue_ice",
+    "minecraft:dark_oak_log",
+    "minecraft:packed_ice",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:frostner",
+    "count": 1
+  }
+}

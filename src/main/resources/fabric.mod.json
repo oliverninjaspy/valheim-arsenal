@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "valheim_arsenal",
+	"version": "${version}",
+	"name": "Valheim Arsenal",
+	"description": "Valheim's weapons in Minecraft: clubs, sledges, swords, knives, axes, battleaxes, spears, atgeirs, claws, bows, crossbows, staves and shields, with Valheim's secondary attacks, backstabs, combos, parries, staggers and elemental damage. Original pixel art in the vanilla style. Fan-made; not affiliated with Iron Gate or Mojang.",
+	"authors": [
+		"Oliver"
+	],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/valheim_arsenal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.valheimarsenal.ValheimArsenal"
+		],
+		"client": [
+			"com.valheimarsenal.client.ValheimArsenalClient"
+		]
+	},
+	"mixins": [
+		"valheim_arsenal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:turtle_scute",
+    "minecraft:turtle_scute",
+    "minecraft:turtle_scute",
+    "valheim_arsenal:silver_ingot",
+    "valheim_arsenal:silver_ingot",
+    "#minecraft:planks",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:serpent_scale_shield",
+    "count": 1
+  }
+}

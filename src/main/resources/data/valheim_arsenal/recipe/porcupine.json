@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:black_metal_ingot",
+    "valheim_arsenal:black_metal_ingot",
+    "valheim_arsenal:black_metal_ingot",
+    "minecraft:pointed_dripstone",
+    "minecraft:pointed_dripstone",
+    "minecraft:stick",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:porcupine",
+    "count": 1
+  }
+}

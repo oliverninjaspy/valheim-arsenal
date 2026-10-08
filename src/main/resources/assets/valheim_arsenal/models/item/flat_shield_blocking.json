@@ -1,0 +1,73 @@
+{
+  "parent": "valheim_arsenal:item/flat_shield",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        -1.5,
+        4.0,
+        3.0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        -1.5,
+        4.0,
+        3.0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        -3.0,
+        3.5,
+        -2.0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        -3.0,
+        3.5,
+        -2.0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    }
+  }
+}

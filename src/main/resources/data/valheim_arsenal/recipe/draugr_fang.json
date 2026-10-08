@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:dark_oak_log",
+    "valheim_arsenal:silver_ingot",
+    "valheim_arsenal:silver_ingot",
+    "minecraft:slime_ball",
+    "minecraft:string",
+    "minecraft:string",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:draugr_fang",
+    "count": 1
+  }
+}

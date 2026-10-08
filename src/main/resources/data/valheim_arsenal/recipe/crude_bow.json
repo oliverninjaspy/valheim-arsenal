@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:string",
+    "minecraft:string",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:crude_bow",
+    "count": 1
+  }
+}

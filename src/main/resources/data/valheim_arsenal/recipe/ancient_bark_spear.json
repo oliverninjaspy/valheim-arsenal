@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:dark_oak_log",
+    "minecraft:dark_oak_log",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:ancient_bark_spear",
+    "count": 1
+  }
+}

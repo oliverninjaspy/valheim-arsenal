@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:black_metal_ingot",
+    "valheim_arsenal:black_metal_ingot",
+    "valheim_arsenal:black_metal_ingot",
+    "valheim_arsenal:black_metal_ingot",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:blackmetal_tower_shield",
+    "count": 1
+  }
+}

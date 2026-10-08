@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:amethyst_shard",
+    "minecraft:amethyst_shard",
+    "minecraft:amethyst_shard",
+    "minecraft:amethyst_shard",
+    "valheim_arsenal:silver_ingot",
+    "valheim_arsenal:silver_ingot",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:crystal_battleaxe",
+    "count": 1
+  }
+}

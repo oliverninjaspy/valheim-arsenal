@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:cherry_log",
+    "minecraft:cherry_log",
+    "valheim_arsenal:refined_eitr",
+    "valheim_arsenal:refined_eitr",
+    "minecraft:blaze_rod",
+    "minecraft:fire_charge"
+  ],
+  "result": {
+    "id": "valheim_arsenal:staff_of_embers",
+    "count": 1
+  }
+}

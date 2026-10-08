@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:sculk",
+    "minecraft:sculk",
+    "minecraft:lapis_lazuli",
+    "minecraft:glowstone_dust"
+  ],
+  "result": {
+    "id": "valheim_arsenal:refined_eitr",
+    "count": 1
+  }
+}

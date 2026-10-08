@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:cherry_log",
+    "minecraft:cherry_log",
+    "valheim_arsenal:refined_eitr",
+    "minecraft:armadillo_scute",
+    "minecraft:string",
+    "minecraft:string",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:spinesnap",
+    "count": 1
+  }
+}

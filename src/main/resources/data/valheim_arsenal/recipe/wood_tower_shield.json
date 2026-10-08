@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "minecraft:stick",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:wood_tower_shield",
+    "count": 1
+  }
+}

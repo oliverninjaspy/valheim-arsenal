@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:birch_log",
+    "minecraft:birch_log",
+    "minecraft:copper_ingot",
+    "minecraft:string",
+    "minecraft:string",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:finewood_bow",
+    "count": 1
+  }
+}

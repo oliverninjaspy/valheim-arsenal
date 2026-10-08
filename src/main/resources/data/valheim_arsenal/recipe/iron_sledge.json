@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:iron_sledge",
+    "count": 1
+  }
+}

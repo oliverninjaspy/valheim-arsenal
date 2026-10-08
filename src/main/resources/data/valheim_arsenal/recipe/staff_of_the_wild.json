@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:crimson_stem",
+    "minecraft:crimson_stem",
+    "valheim_arsenal:flametal_ingot",
+    "valheim_arsenal:refined_eitr",
+    "minecraft:moss_block",
+    "minecraft:hanging_roots"
+  ],
+  "result": {
+    "id": "valheim_arsenal:staff_of_the_wild",
+    "count": 1
+  }
+}

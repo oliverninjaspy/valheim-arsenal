@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:bronze_ingot",
+    "valheim_arsenal:bronze_ingot",
+    "valheim_arsenal:bronze_ingot",
+    "valheim_arsenal:bronze_ingot",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:bronze_atgeir",
+    "count": 1
+  }
+}

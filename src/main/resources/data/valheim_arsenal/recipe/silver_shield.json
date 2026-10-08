@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:silver_ingot",
+    "valheim_arsenal:silver_ingot",
+    "valheim_arsenal:silver_ingot",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:silver_shield",
+    "count": 1
+  }
+}

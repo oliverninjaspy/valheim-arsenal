@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:flametal_ingot",
+    "valheim_arsenal:flametal_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:tripwire_hook",
+    "minecraft:string",
+    "minecraft:crimson_stem"
+  ],
+  "result": {
+    "id": "valheim_arsenal:ripper",
+    "count": 1
+  }
+}

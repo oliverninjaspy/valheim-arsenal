@@ -1,0 +1,6 @@
+{
+  "parent": "valheim_arsenal:item/flat_shield_blocking",
+  "textures": {
+    "layer0": "valheim_arsenal:item/blackmetal_tower_shield"
+  }
+}

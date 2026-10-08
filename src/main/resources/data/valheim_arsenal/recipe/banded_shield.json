@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:banded_shield",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:armadillo_scute",
+    "minecraft:armadillo_scute",
+    "minecraft:armadillo_scute",
+    "valheim_arsenal:refined_eitr",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:carapace_buckler",
+    "count": 1
+  }
+}

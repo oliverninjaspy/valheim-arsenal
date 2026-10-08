@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "#minecraft:logs",
+    "#minecraft:logs",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:club",
+    "count": 1
+  }
+}

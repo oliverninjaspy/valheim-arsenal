@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:flametal_ingot",
+    "valheim_arsenal:flametal_ingot",
+    "valheim_arsenal:flametal_ingot",
+    "valheim_arsenal:flametal_ingot",
+    "minecraft:crimson_stem",
+    "minecraft:blackstone",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:slayer",
+    "count": 1
+  }
+}

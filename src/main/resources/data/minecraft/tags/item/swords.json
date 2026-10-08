@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "valheim_arsenal:bronze_sword",
+    "valheim_arsenal:iron_sword",
+    "valheim_arsenal:silver_sword",
+    "valheim_arsenal:blackmetal_sword",
+    "valheim_arsenal:mistwalker",
+    "valheim_arsenal:nidhogg",
+    "valheim_arsenal:dyrnwyn",
+    "valheim_arsenal:krom",
+    "valheim_arsenal:slayer"
+  ]
+}

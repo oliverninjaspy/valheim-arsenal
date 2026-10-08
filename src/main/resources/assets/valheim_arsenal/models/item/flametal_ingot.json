@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "valheim_arsenal:item/flametal_ingot"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:black_metal_ingot",
+    "valheim_arsenal:black_metal_ingot",
+    "minecraft:iron_ingot",
+    "valheim_arsenal:refined_eitr",
+    "minecraft:tripwire_hook",
+    "minecraft:string",
+    "minecraft:cherry_log"
+  ],
+  "result": {
+    "id": "valheim_arsenal:arbalest",
+    "count": 1
+  }
+}

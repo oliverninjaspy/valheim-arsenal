@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "valheim_arsenal:wood_shield",
+    "valheim_arsenal:wood_tower_shield",
+    "valheim_arsenal:bone_tower_shield",
+    "valheim_arsenal:bronze_buckler",
+    "valheim_arsenal:banded_shield",
+    "valheim_arsenal:iron_buckler",
+    "valheim_arsenal:iron_tower_shield",
+    "valheim_arsenal:silver_shield",
+    "valheim_arsenal:serpent_scale_shield",
+    "valheim_arsenal:blackmetal_shield",
+    "valheim_arsenal:blackmetal_tower_shield",
+    "valheim_arsenal:carapace_buckler",
+    "valheim_arsenal:carapace_shield",
+    "valheim_arsenal:flametal_shield",
+    "valheim_arsenal:flametal_tower_shield"
+  ]
+}

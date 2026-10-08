@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "valheim_arsenal:flametal_ingot",
+    "valheim_arsenal:flametal_ingot",
+    "minecraft:crimson_stem",
+    "minecraft:lightning_rod",
+    "minecraft:copper_ingot",
+    "valheim_arsenal:refined_eitr"
+  ],
+  "result": {
+    "id": "valheim_arsenal:dundr",
+    "count": 1
+  }
+}

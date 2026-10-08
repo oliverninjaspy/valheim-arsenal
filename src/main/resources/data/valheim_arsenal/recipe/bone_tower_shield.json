@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:bone_block",
+    "minecraft:bone_block",
+    "minecraft:bone_block",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "valheim_arsenal:bone_tower_shield",
+    "count": 1
+  }
+}
