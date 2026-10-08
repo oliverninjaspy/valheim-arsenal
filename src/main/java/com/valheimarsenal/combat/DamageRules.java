@@ -55,12 +55,12 @@ public final class DamageRules {
 		float result = amount;
 
 		// Skeletons crumble under blunt weapons and shrug off piercing ones.
-		if (target.getType().is(BLUNT_WEAK)) {
+		if (target.is(BLUNT_WEAK)) {
 			result *= spec.physical().skeletonMultiplier();
 		}
 
 		// Spirit damage only hurts the undead, but hurts them a lot.
-		if (spec.spiritBonus() > 0.0F && target.getType().is(SPIRIT_WEAK)) {
+		if (spec.spiritBonus() > 0.0F && target.is(SPIRIT_WEAK)) {
 			result += spec.spiritBonus();
 			Fx.burstAt(level, ParticleTypes.SOUL, target, 4, 0.02);
 		}
